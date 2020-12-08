@@ -10,6 +10,7 @@
  created 18 Dec 2009
  by David A. Mellis
  modified 9 Apr 2012
+ modified 12/1/2020 by joseluisgomezcecena
  by Tom Igoe, based on work by Adrian McEwen
 
  */
@@ -19,7 +20,7 @@
 
 // Enter a MAC address for your controller below.
 // Newer Ethernet shields have a MAC address printed on a sticker on the shield
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xFD };
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xFD }; //if it doesnt have a sticker just make it up as long no device on your network has this same mac you should be fine
 
 // if you don't want to use DNS (and reduce your sketch size)
 // use the numeric IP instead of the name for the server:
